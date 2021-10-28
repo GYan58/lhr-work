@@ -13,9 +13,7 @@ Here provides the basic realization of LHR on Python3. The simulator here contai
 
 5. THe file "Traffic.py" is used to estimated traffic WAN
 
-6. "Overhead.py" contains the code to estimate overhead for algorithms
-
-7. "HRO.py" provides the method to get the upper bound and "Belady.py" simulates the behaviour of Belady's algorithm
+6. "HRO.py" provides the method to get the upper bound and "Belady.py" simulates the behaviour of Belady's algorithm
 
 
 # Experiments
@@ -34,7 +32,13 @@ To get the results in figure 8 of our paper, you should do:
 - Run Simulators in [Webcachesim](https://github.com/sunnyszy/lrb) to get results for SOTAs
 - By using real-hit results, run "Traffic.py" to get the estimated WAN
 
-To estimate overhead, put all algorithms on the same platform and add the codes in "Overhead.py" into the algorithms' codes to estimate the overhead
+To estimate overhead, put all algorithms on the same platform and add the following codes to estimate the overhead:
+```
+import time
+import psutil
+CPU = psutil.cpu_percent()
+Memory = psutil.virtual_memory()
+```
 
 To get figure 2, you should do:
 - Run "HRO.py" and "Belady.py" to get HRO bound and Belady bound
