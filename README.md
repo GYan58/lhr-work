@@ -16,7 +16,7 @@ Here only use the Wikipedia dataset as a test, the dataset can be found in the l
 
 
 # Prototype
-The prototype is implemented on ATS, the original prototype can be found in Zhenyu's work (https://github.com/sunnyszy/lrb). Based on the designed framework from Zhenyu, we put LHR on the system. 
+The prototype is implemented on ATS, the original prototype can be found in Zhenyu's work (https://github.com/sunnyszy/lrb). Based on the designed framework from Zhenyu, we put LHR on ATS. 
 
 
 # Remark
