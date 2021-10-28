@@ -26,7 +26,7 @@ We have implemented LHR and a bunch of state-of-the-arts in simulators including
 - LRUK
 - LFUDA
 - AdaptSize
-- Hawkeye 
+- [Hawkeye](https://ieeexplore.ieee.org/document/7551384/) 
 
 To get the results in figure 8 of our paper, you should do:
 - Run LHR algorithm to get the real hits
