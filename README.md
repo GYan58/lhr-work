@@ -20,13 +20,13 @@ Here provides the basic realization of LHR on Python3. The simulator here contai
 
 # Experiments
 We have implemented LHR and a bunch of state-of-the-arts in simulators including but not limited to:
-- Learning Relaxed Belady (LRB)
+- Learning Relaxed Belady ([LRB](https://www.usenix.org/conference/nsdi20/accepted-papers))
 - LRU
 - B-LRU (Bloom Filter LRU)
 - LRUK
 - LFUDA
 - AdaptSize
-- Hawkeye
+- Hawkeye 
 
 To get the results in figure 8 of our paper, you should do:
 - Run LHR algorithm to get the real hits
@@ -36,7 +36,7 @@ To get the results in figure 8 of our paper, you should do:
 
 To get figure 2, you should do:
 - Run "HRO.py" and "Belady.py" to get HRO bound and Belady bound
-- Run PFOO to get the PFOO bound
+- Run [PFOO](https://github.com/dasebe/optimalwebcaching) to get the PFOO bound
 - SOTAs could be reached by using [Webcachesim](https://github.com/sunnyszy/lrb)
 
 # Prototype
