@@ -19,24 +19,15 @@ Here only use the Wikipedia dataset as a test, the dataset can be found in the l
 The prototype is implemented on ATS, the original prototype can be found in Zhenyu's work (https://github.com/sunnyszy/lrb). Based on the modified framework, we put LHR on ATS. 
 
 
-# Remark
-The code can be still optimized to improve efficiency and overhead, it depends on your needs.
-
-
 # Citation
 If you use the simulator or some results in our paper for a published project, please cite our work by using the following bibtex entry
 
 ```
-@article{yan2021lhr,
-
-    title={Learning from Optimal Caching for Content Delivery},
-    
-    author={Gang Yan and Jian Li and Don Towsley},
-    
-    journal={CoNext},
-    
-    year={2021}
-
+@inproceedings{yan2021learning,
+  title={Learning from Optimal Caching for Content Delivery},
+  author={Yan, Gang and Li, Jian and Towsley, Don},
+  booktitle={Proc. of ACM CoNEXT},
+  year={2021}
 }
 ```
 
