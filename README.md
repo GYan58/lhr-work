@@ -32,7 +32,7 @@ To get the results in figure 8 of our paper, you should do:
 - Run LHR algorithm to get the real hits
 - Run Simulators in [Webcachesim](https://github.com/sunnyszy/lrb) to get results for SOTAs
 - By using real-hit results, run "Traffic.py" to get the estimated WAN
-- To estimate overhead, should put all algorithms on the same platform and add the codes in "Overhead.py" into the algorithms' codes to estimate the overhead
+- To estimate overhead, put all algorithms on the same platform and add the codes in "Overhead.py" into the algorithms' codes to estimate the overhead
 
 To get figure 2, you should do:
 - Run "HRO.py" and "Belady.py" to get HRO bound and Belady bound
