@@ -35,6 +35,11 @@ To get the results in figure 8 of our paper, you should do:
 To estimate overhead, put all algorithms on the same platform and add the following codes to estimate the overhead:
 ```
 import time
+TStart = time.time()
+......
+TEnd = time.time()
+RunTime = TEnd - TStart
+#----------------------
 import psutil
 CPU = psutil.cpu_percent()
 Memory = psutil.virtual_memory()
