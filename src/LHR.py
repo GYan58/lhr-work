@@ -61,7 +61,7 @@ class CacheSim:
 
 class CSys:
     def __init__(self,Csize, AProb=0.0, Pert = 5):
-        self.CSize = Csize * 1024 * 1024
+        self.CSize = Csize
         self.UsedSpace = 0
         self.Caches = {}
         self.Timer = 0
