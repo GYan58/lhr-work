@@ -11,7 +11,7 @@ Here provides the basic realization of LHR on Python3. The simulator here contai
 
 4. Run the file "Main.py" to start the LHR
 
-5. THe file "Traffic.py" is used to estimated traffic WAN
+5. The file "Traffic.py" is used to estimated traffic WAN
 
 6. "HRO.py" provides the method to get the upper bound and "Belady.py" simulates the behaviour of Belady's algorithm
 
