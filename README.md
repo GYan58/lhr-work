@@ -18,6 +18,10 @@ Here provides the basic realization of LHR on Python3. The simulator here contai
 # Trace Format
 | Time | ID | Size |
 |:----:|:----:|:----:|
+| 0 | 1 | 1024 |
+| 1 | 23 | 1024 |
+| 2 | 15 | 2048 |
+| 3 | 10 | 1024 |
 
 
 # Experiments
