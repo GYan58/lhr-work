@@ -32,6 +32,12 @@ To get the results in figure 8 of our paper, you should do:
 - Run Simulators in [Webcachesim](https://github.com/sunnyszy/lrb) to get results for SOTAs
 - By using real-hit results, run "Traffic.py" to get the estimated WAN
 
+
+To get figure 2, you should do:
+- Run "HRO.py" and "Belady.py" to get HRO bound and Belady bound
+- Run [PFOO](https://github.com/dasebe/optimalwebcaching) to get the PFOO bound
+- SOTAs could be reached by using [Webcachesim](https://github.com/sunnyszy/lrb)
+
 To estimate overhead, put all algorithms on the same platform and add the following codes to estimate the overhead:
 ```
 import time
@@ -39,17 +45,11 @@ TStart = time.time()
 ......
 TEnd = time.time()
 RunTime = TEnd - TStart
-#----------------------
+#----------------------#
 import psutil
 CPU = psutil.cpu_percent()
 Memory = psutil.virtual_memory()
 ```
-
-To get figure 2, you should do:
-- Run "HRO.py" and "Belady.py" to get HRO bound and Belady bound
-- Run [PFOO](https://github.com/dasebe/optimalwebcaching) to get the PFOO bound
-- SOTAs could be reached by using [Webcachesim](https://github.com/sunnyszy/lrb)
-
 
 # Citation
 If you use the simulator or some results in our paper for a published project, please cite our work by using the following bibtex entry
