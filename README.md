@@ -8,4 +8,7 @@ Here provides the basic realization of LHR on Python3. The simulator here contai
 
 3. The code named "Utils.py" contains the functions used in LHR
 
+4. Run the file called "Main.py" to start the test of LHR
+
+# Experiment
 
