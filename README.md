@@ -21,7 +21,7 @@ Here provides the basic realization of LHR on Python3. The simulator here contai
 # Experiments
 We have implemented LHR and a bunch of state-of-the-arts in simulators including but not limited to:
 - LHR
-- - [Hawkeye](https://ieeexplore.ieee.org/document/7551384/) 
+- [Hawkeye](https://ieeexplore.ieee.org/document/7551384/) 
 - Learning Relaxed Belady ([LRB](https://www.usenix.org/conference/nsdi20/accepted-papers))
 - LRU
 - B-LRU (Bloom Filter LRU)
