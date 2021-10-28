@@ -24,7 +24,10 @@ We have implemented LHR and a bunch of state-of-the-arts in simulators including
 - AdaptSize
 - Hawkeye
 
-To get the results in figure 8 of our paper, 
+To get the results in figure 8 of our paper, you should do:
+- Run LHR algorithm to get the real hits
+- Run Simulators in [Webcachesim](https://github.com/sunnyszy/lrb) to get results for SOTAs
+- By using real-hit results, run "Traffic.py" to get the estimated WAN
 
 
 
