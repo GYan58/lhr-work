@@ -6,8 +6,6 @@ import xgboost as xgb
 import csv
 from scipy.stats import linregress
 
-BaseRoot = ""
-Symbol = ""
 
 class DModel:
     def __init__(self,X,Y):
