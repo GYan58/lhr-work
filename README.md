@@ -26,7 +26,7 @@ Other simulators could also be found on the above link.
 
 
 # Citation
-If you use the simulator or some results in our paper in a published project, please cite our work bvy using the following bibtex entry
+If you use the simulator or some results in our paper in a published project, please cite our work by using the following bibtex entry
 
 ```
 @article{yan2021lhr,
