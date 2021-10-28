@@ -11,8 +11,10 @@ Here provides the basic realization of LHR on Python3. The simulator here contai
 
 4. Run the file "Main.py" to start the LHR
 
+5. THe file "Traffic.py" is used to estimated traffic WAN
 
-# Experiment
+
+# Experiments
 We have implemented LHR and a bunch of state-of-the-arts in simulators including but not limited to:
 - Learning Relaxed Belady (LRB)
 - LRU
@@ -22,6 +24,7 @@ We have implemented LHR and a bunch of state-of-the-arts in simulators including
 - AdaptSize
 - Hawkeye
 
+To get the results in figure 8 of our paper, 
 
 
 
