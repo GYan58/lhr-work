@@ -5,7 +5,7 @@ Here provides the basic realization of LHR on Python3. The simulator here contai
 # Usage
 1. Requirement: Python >= 3.6, Xgboost and Lightgbm
 
-2. The script "LHR.py" is the realization of LHR algorithm, parameters can be changed according to user's needs
+2. The script "LHR.py" is the realization of LHR algorithm, parameters can be changed under different cases
 
 3. The code named "Utils.py" contains the functions used in LHR
 
