@@ -16,6 +16,8 @@ Here provides the basic realization of LHR on Python3. The simulator here contai
 6. "HRO.py" provides the method to get the upper bound and "Belady.py" simulates the behaviour of Belady's algorithm
 
 # Trace Format
+Request traces are expected to be in a space-separated format with 3 columns: request time, content id and content size.
+
 | Time | ID | Size |
 |:----:|:----:|:----:|
 | 0 | 1 | 1024 |
