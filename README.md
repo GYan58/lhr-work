@@ -40,8 +40,6 @@ To get figure 2, you should do:
 - Run [PFOO](https://github.com/dasebe/optimalwebcaching) to get the PFOO bound
 - SOTAs could be reached by using [Webcachesim](https://github.com/sunnyszy/lrb)
 
-# Prototype
-
 
 # Citation
 If you use the simulator or some results in our paper for a published project, please cite our work by using the following bibtex entry
