@@ -10,6 +10,10 @@ Here provides the basic realization of LHR on Python3. The simulator here contai
 
 
 # Experiment
-Here only use the Wikipedia dataset as a test, the dataset can be found in the link https://github.com/sunnyszy/lrb
+Here only use the Wikipedia dataset as a test, the dataset can be found in the link https://github.com/sunnyszy/lrb. The real hits could seen:
+![image](https://github.com/GYan58/lhr-work/Experiment/wiki.pdf)
+
+
+
 
 
