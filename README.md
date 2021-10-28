@@ -13,12 +13,19 @@ Here provides the basic realization of LHR on Python3. The simulator here contai
 
 
 # Experiment
-Here only use the Wikipedia dataset as a test, the dataset can be found in the link https://github.com/sunnyszy/lrb. The real hits could be seen:
-![image](https://github.com/GYan58/lhr-work/blob/main/Experiments/wiki.jpeg)
+We have implemented LHR and a bunch of state-of-the-arts in simulators including but not limited to:
+- Learning Relaxed Belady (LRB)
+- LRU
+- B-LRU (Bloom Filter LRU)
+- LRUK
+- LFUDA
+- AdaptSize
+- Hawkeye
+
+
 
 
 # Prototype
-The prototype is implemented on ATS, the original prototype can be found in Zhenyu's work (https://github.com/sunnyszy/lrb). Based on the modified framework, we put LHR on ATS. 
 
 
 # Citation
