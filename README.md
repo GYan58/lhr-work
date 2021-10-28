@@ -16,7 +16,8 @@ Here provides the basic realization of LHR on Python3. The simulator here contai
 6. "HRO.py" provides the method to get the upper bound and "Belady.py" simulates the behaviour of Belady's algorithm
 
 # Trace Format
----|---|---
+------|------|------
+Time | Id | Size
 
 
 # Experiments
