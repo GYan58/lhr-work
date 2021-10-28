@@ -22,8 +22,6 @@ The prototype is implemented on ATS, the original prototype can be found in Zhen
 # Remark
 The code can be still optimized to improve efficiency and overhead, it depends on your needs.
 
-Other simulators could also be found on the above link.
-
 
 # Citation
 If you use the simulator or some results in our paper in a published project, please cite our work by using the following bibtex entry
